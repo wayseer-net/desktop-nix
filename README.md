@@ -6,7 +6,10 @@ user downloads, byte for byte.
 
 ```sh
 nix run github:wayseer-net/desktop-nix
+nix run github:wayseer-net/desktop-nix -- --demo    # Wayseer's flags go after --
 ```
+
+`nix run` keeps any flag before `--` for itself.
 
 ## NixOS
 
